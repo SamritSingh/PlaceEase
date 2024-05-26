@@ -1,0 +1,54 @@
+/* StudentDetails.css */
+
+/* Add your CSS styles for StudentDetails component here */
+
+.whole{
+  display: flex;
+  height: auto;
+  width: 100vw;
+  background-color: black;
+}
+.student-details-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 700px;
+  align-self: center;
+  align-items: center;
+    margin: auto;
+    margin-top: 5%;
+    padding: 20px;
+    background-color: #95bbf0;
+    border: 2px solid #ff2600;
+    border-radius: 40px;
+  }
+  
+  .student-details-container h1 {
+    width: 100%;
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .student-details-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 60px;
+  }
+  .student-details-item strong{
+    color: black;
+    font-size: 25px;
+    align-self: center;
+    font-weight: 900;
+  }
+  .student-details-item h2{
+    width: auto;
+    height: 100px;
+    margin: 0;
+    font-size: x-large;
+    align-self: center;
+    align-content: center;
+  }

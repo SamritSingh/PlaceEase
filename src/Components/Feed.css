@@ -1,0 +1,10 @@
+.Feed{
+    flex: 0.5;
+    height: auto;
+}
+
+@media (max-width: 477px) {
+    .Feed{
+        flex: 0.9;
+    }
+}

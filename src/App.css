@@ -1,0 +1,13 @@
+.App{
+  width: auto;
+  height: auto;
+  margin: 0;
+  background-color: rgb(241, 241, 241);
+}
+
+/* Mobile */
+/* @media (max-width: 477px) {
+  .App {
+    width: 100vw;
+  }
+} */

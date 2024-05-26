@@ -1,0 +1,93 @@
+.Register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: black;
+    color: white;
+    margin-top: 10%;
+    border: 0px solid #ff2600;
+    border-radius: 15px;
+  }
+  @keyframes smoothBorderColorChange {
+    0% {
+      border-color: #ef8e38;
+      box-shadow: 0 5px 15px #ef8e38;
+    }
+    33% {
+      border-color: #108dc7;
+      box-shadow: 0 5px 15px #108dc7;
+    }
+    66% {
+      border-color: #ef8e38;
+      box-shadow: 0 5px 15px #ef8e38;
+    }
+    100% {
+      border-color: #108dc7;
+      box-shadow: 0 5px 15px #108dc7;
+    }
+  }
+  
+  .cred1{
+    display: flex;
+    gap: 70px  ;
+    margin-bottom: 10px;
+  }
+  .cred2{
+    display: flex;
+    gap: 130px  ;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .cred3{
+    display: flex;
+    gap: 120px  ;
+    padding-left: 15px;
+    
+  }
+  .register-box {
+    background-color: black;
+    padding: 20px;
+    border: 3px solid #ff2600;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(1, 1, 1, 1);
+    /*animation: smoothBorderColorChange 5s linear infinite;*/
+  }
+  
+  .user-box {
+    margin-bottom: 15px;
+  }
+  
+  .user-box label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .user-box input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.324);
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.324);
+    color: white;
+  }
+  
+  button {
+    background-color: #ff2600;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+    margin-top: 40px;
+    font-size: medium;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: white;
+    transform: scale(1.05);
+  }
+  

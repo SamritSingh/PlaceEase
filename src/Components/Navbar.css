@@ -1,0 +1,121 @@
+.navbar .logo img{
+    width: 100%;
+}
+.navbar .logo{
+    width: 7rem;
+    margin-left: 2rem;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.4em;
+    height: 10vh;
+    /* border: 2px solid gray; */
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    position: sticky;
+    z-index: 1000;
+    border-bottom: 0px solid #ff2600;
+    margin-top: 20px;
+    border-radius: 100px;
+    padding: 10px 0px 20px 40px;
+
+}
+.navbar .menu{
+    display: flex;
+    margin-left: 10px;
+}
+.menu .nav-icon{
+    margin: 20px;
+    outline-color: red;
+    cursor: pointer;
+}
+.Home >.MuiSvgIcon-root{
+    color: #c92e29;
+}
+.nav-icon >.MuiSvgIcon-root{
+    font-size: 34px;
+}
+.nav-icon >.MuiSvgIcon-root:hover{
+    color: #c92e29;
+}
+.nav-search{
+    width: 23%;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding: 2px;
+    height: 55%;
+}
+
+.nav-search input{
+    width: 100%;
+    padding: 0.4rem;
+    border: none;
+    margin-left: 10px;
+}
+.nav-search> .MuiSvgIcon-root{
+    margin-left: 5px;
+    color: gray;
+}
+.nav-search input:focus{
+    outline: none;
+}
+.nav-remaining{
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+    gap: 40rem;
+    padding-right: 10px;
+}
+.profile-avatar{
+    /* width: 34px; */
+    /* height: 34px; */
+    cursor: pointer;
+}
+.navbar button{
+
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 150px;
+    /* font-size: 1rem; */
+}
+.navbar button:hover{
+
+    background-color: #ff2600;
+    /* font-size: 1rem; */
+}
+.navbar h2{
+    width: 800px;
+    text-align: left;
+    margin: 10px;
+}
+
+
+  @media (max-width: 477px) {
+    .navbar{
+      /* display: none;  */
+      gap: 0rem;
+      height: auto;
+      flex-wrap: wrap;
+    }
+    .navbar .logo {
+      margin: 0 auto;
+      width: 20%;
+    }
+    .nav-search{
+      display: none;
+    }
+    .navbar .menu{
+      display: none;
+    }
+    .nav-remaining{
+      gap: 1rem;
+      margin: 0 auto;
+    }
+  }

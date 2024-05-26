@@ -1,0 +1,286 @@
+.Profile-FeedBox{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #243041;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    gap: 0.8rem;
+    height: auto;
+    border: 0px solid #ff2600;
+    box-shadow: 0 5px 10px rgba(1, 1, 1, 1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.Profile-FeedBox:hover {
+    transform: scale(1.01); /* Slightly enlarge the box */
+    box-shadow: 0 7px 15px rgba(1, 1, 1, 1); /* Increase the shadow */
+}
+
+.profile-info{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
+.profile-info .time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 15px;
+    /* height:40px;   */
+    /* background-color: rgb(147, 143, 143); */
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border: 2px solid #27f1dd;
+    border-radius: 20px;
+    margin-left: 90px;
+}
+.profile-info-text{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.profile-info-text .name{
+   text-align: left; 
+    width: 250px;
+    padding-left: 20px;
+}
+.profile-info-text .semester{
+    text-align: left; 
+     width: 250px;
+     
+ }
+.Question-feedbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 0px solid #ff2600;
+    width: 100%;
+    border-radius: 1px;
+    padding: 10px 10px;
+}
+
+.para {
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    text-align: left;
+    border-bottom: 2px solid #d23c21;
+    border-radius: 05px;
+    padding-bottom: 10px;
+}
+.Share button{
+    width: 80px;
+    font-size: medium;
+    background-color: #e23a34;
+    font-weight: 700;
+    cursor: pointer;
+    
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0px 0px 5px 600px;
+}
+.Share button:hover{
+    color:black;
+    background-color: lightskyblue;
+}
+.Question-feedbox h3{
+    width: auto;
+    padding: 0px 30px;
+    text-align: justify;
+    font-weight: 400;
+    cursor: pointer;
+    word-spacing: 1px;
+    font-size: large;
+}
+
+/* Style for the main post__answer container */
+.post__answer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    /* border: 2px solid gray; */
+    height: auto;
+    max-width: 100%; /* Adjust the maximum width as needed */
+
+  }
+  
+  /* Style for individual answer paragraphs */
+  
+
+
+  .PostUser-Profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: baseline;
+    gap: 0px;
+    margin: 10px;
+    
+  }
+  
+
+  .PostUser-Profile .AvatarBelow{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+  .PostUser-Profile h4{
+    width: 250px;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .PostUser-Profile p{
+    width: fit-content;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid #ffaa00;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 20px;
+  }
+
+  
+.Feed-footer{
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.4rem;
+}
+.vote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 5px 15px ;
+    gap: 0.7rem;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #37f437;
+}
+.vote .MuiSvgIcon-root:hover{
+    transform: scale(1.2);
+}
+.vote .Upvote{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+.vote .Upvote h5{
+    font-size: 0.8rem;
+}
+.vote .Downvote{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 0.5rem;
+}
+.Feed-footer .Message{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Share .MuiSvgIcon-root:hover{
+    transform: scale(1.2);
+    
+}
+.Feed-footer .Share{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Message .MuiSvgIcon-root:hover{
+    color: #c92e29;
+}
+/* Modal */
+.modal-ans{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    
+    background-color: white;
+    color: white;
+}
+.modal-ans input{
+
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    outline: none;
+    background-color: white;
+    border-radius: 50px;
+    border: 4px solid black;
+    margin-top: 10px;
+    margin-right: 0px;
+    font-size: large;
+    padding-left: 20px;
+}
+
+.modal-btn button{
+    width: auto;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    background-color: #000000;
+    border: none;
+    margin: 8px;
+    cursor: pointer;
+    border-radius: 30px;
+    align-self: center;
+}
+
+/* Mobile */
+
+@media (max-width: 477px) {
+    .Profile-FeedBox{
+        padding: 3px;
+        margin-top: 5px;
+        gap: 0.5rem;
+
+    }
+    .profile-info img{
+    width: 40px;
+}
+.Question-feedbox button{
+    width: 67px;
+    font-size: 0.8rem;
+}
+.Question-feedbox{
+    gap: 1.3rem;   
+}
+.Question-feedbox h3{
+    padding: 4px;
+    font-weight: 300;
+}
+.Answer-feedbox .image{
+    width: 50%;
+}
+.vote .MuiSvgIcon-root{
+    font-size: 1.5rem;
+}
+.vote{
+    width: 60%;
+}
+.Message .MuiSvgIcon-root{
+    font-size: 1.5rem;
+}
+.Share .MuiSvgIcon-root{
+    font-size: 1.5rem;
+}
+}
